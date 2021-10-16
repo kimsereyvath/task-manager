@@ -1,0 +1,94 @@
+* {
+    color: white;
+}
+
+.custom-bg-dark {
+    background-color: #373f36 !important;
+
+}
+
+nav.navbar {
+    height: 6rem;
+}
+
+a.navbar-brand {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+li.nav-item a {
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 767px) {
+    div#navbarCollapse {
+        width: 100%;
+        position: fixed;
+        top: 75px;
+        left: 0;
+        padding-left: 20px;
+        padding-bottom: 5px;
+        background-color: #373f36;
+    }
+}
+
+div#app-container {
+    position: fixed;
+    top: 96px;
+    left: 0;
+    bottom: 50px;
+    width: 100%;
+    padding: 2rem;
+    background-color: #1d2733;
+    overflow: auto; /*for scrolling when content is longer than the screen*/
+}
+
+footer#custom-footer {
+    height: 4rem;
+    background-color: #373f36;
+    font-size: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div#custom-home {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-primary {
+    background-color: blue !important;
+}
+
+.btn-success {
+    background-color: rebeccapurple !important;
+}
+
+.btn-success:hover {
+    background-color: green !important;
+}
+
+form.custom-form {
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal-title,
+.modal-body p {
+    color: #000 !important;
+
+}
+
+.late {
+    color: red !important;
+}
